@@ -1,5 +1,7 @@
 package org.spring.springboot.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.spring.springboot.dao.CityRepository;
 import org.spring.springboot.domain.City;
 import org.spring.springboot.service.CityService;
@@ -10,10 +12,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by bysocket on 07/02/2017.
+ * Created by Created by kevin on 17/11/21.
  */
 @RestController
 public class CityRestController {
+    private Logger logger =  LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     private CityService cityService;
@@ -22,7 +25,7 @@ public class CityRestController {
 
     @RequestMapping(value = "/api/city", method = RequestMethod.GET)
     public City findOneCity(@RequestParam(value = "cityName", required = true) String cityName) {
-        return cityService.findCityByName(cityName);
+    	return cityService.findCityByName(cityName);
     }
     
     @RequestMapping(value = "/api/city/annotation", method = RequestMethod.GET)

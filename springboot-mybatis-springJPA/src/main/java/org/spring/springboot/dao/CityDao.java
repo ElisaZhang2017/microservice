@@ -6,7 +6,7 @@ import org.spring.springboot.domain.City;
 /**
  * 城市 DAO 接口类
  *
- * Created by bysocket on 07/02/2017.
+ * Created by Created by kevin on 17/11/21.
  */
 public interface CityDao {
 

@@ -1,8 +1,8 @@
-C:\Users\kchen228\git\springboot-learning-example\springboot-mybatis\src\main\java\org\spring\springboot\dao\CityRepository.java
-C:\Users\kchen228\git\springboot-learning-example\springboot-mybatis\src\main\java\org\spring\springboot\service\impl\CityServiceImpl.java
-C:\Users\kchen228\git\springboot-learning-example\springboot-mybatis\src\main\java\org\spring\springboot\dao\CityDao.java
-C:\Users\kchen228\git\springboot-learning-example\springboot-mybatis\src\main\java\org\spring\springboot\domain\City.java
-C:\Users\kchen228\git\springboot-learning-example\springboot-mybatis\src\main\java\org\spring\springboot\dao\CityAnnotationDao.java
-C:\Users\kchen228\git\springboot-learning-example\springboot-mybatis\src\main\java\org\spring\springboot\service\CityService.java
-C:\Users\kchen228\git\springboot-learning-example\springboot-mybatis\src\main\java\org\spring\springboot\Application.java
-C:\Users\kchen228\git\springboot-learning-example\springboot-mybatis\src\main\java\org\spring\springboot\controller\CityRestController.java
+C:\Users\kchen228\Downloads\git\microservice\springboot-mybatis-springJPA\src\main\java\org\spring\springboot\domain\City.java
+C:\Users\kchen228\Downloads\git\microservice\springboot-mybatis-springJPA\src\main\java\org\spring\springboot\service\impl\CityServiceImpl.java
+C:\Users\kchen228\Downloads\git\microservice\springboot-mybatis-springJPA\src\main\java\org\spring\springboot\dao\CityDao.java
+C:\Users\kchen228\Downloads\git\microservice\springboot-mybatis-springJPA\src\main\java\org\spring\springboot\dao\CityRepository.java
+C:\Users\kchen228\Downloads\git\microservice\springboot-mybatis-springJPA\src\main\java\org\spring\springboot\service\CityService.java
+C:\Users\kchen228\Downloads\git\microservice\springboot-mybatis-springJPA\src\main\java\org\spring\springboot\controller\CityRestController.java
+C:\Users\kchen228\Downloads\git\microservice\springboot-mybatis-springJPA\src\main\java\org\spring\springboot\Application.java
+C:\Users\kchen228\Downloads\git\microservice\springboot-mybatis-springJPA\src\main\java\org\spring\springboot\dao\CityAnnotationDao.java

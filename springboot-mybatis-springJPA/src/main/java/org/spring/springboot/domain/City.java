@@ -10,7 +10,7 @@ import lombok.Setter;
 /**
  * 城市实体类
  *
- * Created by bysocket on 07/02/2017.
+ * Created by Created by kevin on 17/11/21.
  */
 @Getter
 @Setter

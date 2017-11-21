@@ -2,14 +2,14 @@ server:
   port: 8000
 spring:
   application:
-      name: microservice-springboot-mybatis
+      name: sinopharm
   jpa:
     generate-ddl: false
     show-sql: true
     hibernate:
       ddl-auto: none
   datasource:                           # 指定数据源
-    url: jdbc:mysql://localhost:3306/springbootdb?characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/sinopharm_db?characterEncoding=UTF-8&verifyServerCertificate=false&useSSL=true
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver

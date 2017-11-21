@@ -1,9 +1,6 @@
 package org.spring.springboot;
 
 import org.mybatis.spring.annotation.MapperScan;
-import org.spring.springboot.dao.CityDao;
-import org.spring.springboot.domain.City;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -11,11 +8,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * Spring Boot 应用启动类
  *
- * Created by bysocket on 16/4/26.
+ * Created by kevin on 17/11/21.
  */
 // Spring Boot 应用的标识
 @SpringBootApplication
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 // mapper 接口类扫描包配置
 @MapperScan("org.spring.springboot.dao")
 public class Application {
